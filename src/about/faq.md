@@ -80,12 +80,6 @@ Jeżeli już wcześniej używałeś Options API i obecnie testujesz Composition 
 
 ## Czy w Vue powinienem użyć JavaScript czy TypeScript?
 
-While Vue itself is implemented in TypeScript and provides first-class TypeScript support, it does not enforce an opinion on whether you should use TypeScript as a user.
-
-TypeScript support is an important consideration when new features are added to Vue. APIs that are designed with TypeScript in mind are typically easier for IDEs and linters to understand, even if you aren't using TypeScript yourself. Everybody wins. Vue APIs are also designed to work the same way in both JavaScript and TypeScript as much as possible.
-
-Adopting TypeScript involves a trade-off between onboarding complexity and long-term maintainability gains. Whether such a trade-off can be justified can vary depending on your team's background and project scale, but Vue isn't really an influencing factor in making that decision.
-
 Podczas gdy Vue jest napisany w TypeScript oraz zapewnia z nim pierwszorzędną integrację, nie wymusza na tobie tego, czy powinieneś go używać jako użytkownik.
 
 Wsparcie dla TypeScript jest ważnym punktem do rozważenia podczas dodawania nowych funkcjonalności do Vue. API, które są zaprojektowane z myślą o TypeScript są zazwyczaj łatwiejsze do zrozumienia przez IDE i lintery, nawet jeśli samemu go nie używasz. Każdy wygrywa. API Vue jest również zaprojektowane z myślą o działaniu zarówno w JavaScript i TypeScript w takim samym stopniu, jak tylko to możliwe.
